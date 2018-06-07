@@ -1,3 +1,11 @@
+pgzero (1.2.post4+dfsg-1) UNRELEASED; urgency=medium
+
+  * Initial upload to Debian (previous versions were from raspberry pi
+    foundation repository)
+  * Strip out documentation/examples for now due to unclear licensing
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 07 Jun 2018 20:23:43 +0100
+
 pgzero (1.2.post1-2) stretch; urgency=medium
 
   * Change package architecture to 'all'
