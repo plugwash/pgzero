@@ -346,6 +346,8 @@ can use the :func:`on_music_end() hook <on_music_end>` to do something when the
 music ends - for example, to pick another track at random.
 
 
+.. _clock:
+
 Clock
 -----
 
@@ -529,6 +531,8 @@ be floats or the strings ``left``, ``center``/``middle``, ``right``, ``top`` or
 Rotation
 ''''''''
 
+.. versionadded:: 1.2
+
 The ``.angle`` attribute of an Actor controls the rotation of the sprite, in
 degrees, anticlockwise (counterclockwise).
 
@@ -697,6 +701,8 @@ The ``animate()`` function returns an ``Animation`` instance:
 
 Tone Generator
 --------------
+
+.. versionadded:: 1.2
 
 Pygame Zero can play tones using a built-in synthesizer.
 
