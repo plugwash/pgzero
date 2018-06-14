@@ -3,29 +3,33 @@ Upstream-Name: pgzero
 Source: https://github.com/lordmauve/pgzero
 Files-Excluded:
  doc/_static/scratch
- doc/eep.wav
+ doc/_static/eep.wav
  doc/_static/sticker-mule.svg
  doc/_static/rotation.svg
+ source-vectors/ship.svg
+ source-vectors/block.svg
  examples/asteroids
  examples/basic
  examples/flappybird
  examples/mines
  examples/pong
  examples/snake
+ test/sounds
 Comment: see https://github.com/lordmauve/pgzero/issues/75 for discussion of licensing issues
  doc/_static/scratch: screenshots of scratch which I am not clear of licensing of, also flappy bird images seem to have been ripped from commercial flappy bird game
  doc/_static/eep.wav: source and license unknown
  doc/_static/sticker-mule.svg: source and license unknown (strongly suspect nonfree)
- doc/_static/rotation.svg: spaceship was apparently created for the project but who exactly created it and what license they intended to put it under is unknown
+ doc/_static/rotation.svg source-vectors/ship.svg: spaceship was apparently created for the project but who exactly created it and what license they intended to put it under is unknown
+ source-vectors/block.svg: authorship/license unknown
  examples/asteroids: license unknown
  examples/basic: license unknown, source of some assets unclear
  examples/flappybird: license unknown, assets seem to have been ripped from the propietary flappy bird game
  examples/mines: license unknown, source of assets unknown
  examples/pong: license unknown
  examples/snake: license unknown, source of assets unknown
- 
+ test/sounds: source and license unknown
 
-Files: doc/_static/alien_hurt.png doc/_static/alien.png
+Files: doc/_static/alien_hurt.png doc/_static/alien.png test/images/alien.png test/images/expected_alien_blit.png
 Copyright: kenny.nl
 License: CC0
 
@@ -51,7 +55,7 @@ Copyright: 2015 Daniel Pope <mauve@mauveweb.co.uk>
 License: LGPL-3.0+
 
 Files: debian/*
-Copyright: 2015 Serge Schneider <serge@raspberrypi.org>
+Copyright: 2015 Serge Schneider <serge@raspberrypi.org> 2018 Peter Michael Green <plugwash@debian.org>
 License: LGPL-3.0+
 
 License: LGPL-3.0+
